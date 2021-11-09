@@ -16,7 +16,7 @@ services:
       - atlassian
 
   confluence:
-    image: haxqer/confluence:7.3.1
+    image: haxqer/confluence:7.6.2
     container_name: atlassian-confluence
     environment:
       - TZ='Asia/Shanghai'
